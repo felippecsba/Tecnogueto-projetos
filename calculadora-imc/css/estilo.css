@@ -1,0 +1,22 @@
+body {
+  background-color: #EEE;
+}
+
+.form-signin {
+  width: 100%;
+  height: 100vh;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mostrar {
+  display: block;
+}
+
+.esconder {
+  display: none;
+}
