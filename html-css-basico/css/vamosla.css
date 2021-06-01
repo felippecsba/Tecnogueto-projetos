@@ -1,0 +1,25 @@
+
+.todasVamosLa {
+    padding: 4rem 0;
+  }
+  
+  .conteudoVamosLa,
+  .conteduoGerenciaProjetos {
+    justify-content: space-between;
+  }
+  
+  .link-roxo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.875rem;
+    color: var(--corRoxo);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .link-roxo i {
+    margin-left: 0.5rem;
+  }
+  

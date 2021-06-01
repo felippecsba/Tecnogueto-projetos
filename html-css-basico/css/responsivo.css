@@ -1,0 +1,220 @@
+@media screen and (max-width: 30rem) {
+  .todosBlocosDeRecursos,
+  .banner,
+  .blocoDepoimentos,
+  .conteudoDoHeader,
+  .conteudoVamosLa,
+  .conteudoConquistas,
+  .conteduoGerenciaProjetos,
+  .conteudoRodape,
+  .formContato {
+    flex-direction: column;
+  }
+
+  .tituloPrincipal {
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .banner {
+  padding-top: 2rem;
+  }
+  .conteudo {
+    width: 90%;
+    min-width: 70%;
+    margin: 0 auto 0 auto;
+  }
+
+  .tituloDeSessao {
+    width: 90%;
+  }
+
+  .titulo {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height:3.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+  }
+
+  .blocoDeRecursos {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+
+  .blocoDeRecursos,
+  .depoimento,
+  .coluna {
+    width: 100%;
+  }
+
+  .depoimento,
+  .marginNegative110 .depoimento:first-child  {
+    margin: 0;
+  }
+
+  .botoesLoja {
+    margin-top: 1.25rem;
+  }
+
+  .imagemCelular {
+    margin-top: 2.50rem;
+
+  }
+
+  .bannerPrincipal{
+    background: #f6fffc ;
+
+  }
+
+  .imgResponsiva {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .rodape {
+    padding: 2rem 0 ;
+  }
+
+  .marginTop20 {
+    margin-top: 1.25rem;
+  }
+
+  .link-roxo,
+  .botao,
+  .menuRodape {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .todosDepoimentos {
+    padding-bottom: 2rem;
+  }
+  .todasGerenciaProjetos {
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .coluna p,
+  .coluna .botoesLoja {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .todasConquistas {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* FORMATAÇÃO TABLET */
+
+
+
+@media screen and (max-width: 48rem) {
+
+
+  .blocoDepoimentos {
+    flex-direction: column;
+  }
+
+  .conteudo {
+    width: 85%;
+    min-width: 70%;
+    margin: 0 auto 0 auto;
+  }
+
+  .conteudoConquistas {
+    justify-content: space-between;
+  }
+
+  .conteudoConquistas .coluna {
+    padding: 0 0.5rem;
+  }
+
+  .conteudoVamosLa img {
+    width: 90%;
+  }
+
+  .banner {
+    padding-top: 2rem;
+  }
+
+
+  .tituloDeSessao {
+    width: 90%;
+  }
+
+  .titulo {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height:3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .blocoDeRecursos {
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 0 0.5rem;
+  }
+
+  .depoimento,
+  .coluna {
+    width: 100%;
+  }
+
+  .depoimento,
+  .marginNegative110 .depoimento:first-child  {
+    margin: 0;
+  }
+
+  .link-roxo,
+  .botao {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .marginTop20 {
+    margin-top: 1.25rem;
+  }
+
+  .todosDepoimentos {
+    padding-bottom: 2rem;
+    padding-top: 4.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .todasConquistas,
+  .todasGerenciaProjetos {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .todasVamosLa {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .rodape {
+    padding: 2rem ;
+  }
+
+  .coluna p {
+    margin-bottom: 1rem;
+  }
+
+}
+

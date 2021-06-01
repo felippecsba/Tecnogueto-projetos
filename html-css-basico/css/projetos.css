@@ -1,0 +1,11 @@
+
+.todasGerenciaProjetos {
+    background-color: var(--corRosa);
+    color: var(--corBranco);
+    padding: 4.25rem 0;
+  }
+  
+  .todasGerenciaProjetos .botoesLoja {
+    margin-top: 3rem;
+  }
+  

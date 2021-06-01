@@ -1,0 +1,39 @@
+
+.segundoSobre {
+    background: var(--corRoxo);
+    color: var(--corBranco);
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoSobre {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgCircular {
+    border-radius: 50%;
+}
+
+.textoCenter {
+    text-align: center;
+}
+
+.textoJus {
+    text-align: justify;
+}
+
+.padding32px {
+    padding: 2rem 0;
+}
+
+.tituloDeSessaoSobre {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tituloblocoDeRecursos{
+    padding: 0.5rem 0;
+}

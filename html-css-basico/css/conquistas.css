@@ -1,0 +1,26 @@
+
+.todasConquistas {
+    padding-top: 5.125rem;
+    padding-bottom: 5.125rem;
+  }
+  .coluna,
+  .blocoConquistas {
+    width: 45%;
+  }
+  
+  .blocosNumeros {
+    flex-wrap: wrap;
+  }
+  
+  .blocoConquistas,
+  .conteudoVamosLa,
+  .conteduoGerenciaProjetos {
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .blocoConquistas i {
+    font-size: 1.625rem;
+    margin-right: 1rem;
+  }

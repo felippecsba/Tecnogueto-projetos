@@ -1,0 +1,181 @@
+:root {
+  --corRosa: #ff3773;
+  --corVerde: #28f5be;
+  --corRoxo: #8c30f5;
+  --corBranco: #fff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 26px;
+  box-sizing: border-box;
+}
+
+.conteudo {
+  width: 80%;
+  max-width: 71.25rem;
+  min-width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+.blocoDeRecursos {
+  text-align: center;
+  width: 30%;
+  margin: 3.125rem 0 0.9375rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.cor-verde {
+  color: var(--corRosa);
+}
+
+.cor-rosa {
+  color: var(--corVerde);
+}
+
+.cor-roxo {
+  color: var(--corRoxo);
+}
+
+.blocoDeRecursos i {
+  font-size: 3rem;
+}
+
+.tituloblocoDeRecursos {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+
+.todosBlocosDeRecursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tituloDeSessao {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo {
+  margin: 0.5rem 0;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.subtitulo {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+  background-color: var(--corBranco);
+  box-shadow: 0px 1px 0px #e5e9f2;
+  padding: 1.625rem 0;
+}
+
+.conteudoDoHeader,
+.conteudoConquistas,
+.blocosNumeros,
+.blocoDepoimentos,
+.conteudoSobre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoesDoCabecalho,
+.informacoesDoCabecalho nav {
+  display: flex;
+  align-items: center;
+}
+
+.informacoesDoCabecalho img,
+.informacoesDoCabecalho nav a {
+  margin-right: 2rem;
+}
+
+.informacoesDoCabecalho nav a {
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+  color: #18191f;
+}
+
+.botoesLoja a {
+  margin-right: 0.75rem;
+  text-decoration: none;
+}
+
+/*Geral*/
+
+.tituloPrincipal {
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 6.125rem;
+  margin-bottom: 2rem;
+}
+
+.botao {
+  color: var(--corBranco);
+  background: var(--corVerde);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem 4.1875rem;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: var(--corRosa);
+}
+
+.marginNegative110 {
+  margin-top: -6.875rem;
+}
+
+.marginNegative110 .depoimento:first-child {
+  margin-bottom: 7.75rem;
+}
+
+.largura350px {
+  width: 21.875rem;
+}
+
+
+/*Banner Principal*/
+
+/* Depoimentos */
+
+/* Nossas Conquistas */
+
+/* Vamos la */
+
+/* Gerenciamento de Projetos */
+
+  /*Rodapé*/
