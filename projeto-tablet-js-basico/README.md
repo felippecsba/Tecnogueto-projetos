@@ -1,11 +1,9 @@
-# Projeto Home Instagram - Clone 📷 #
-
-Olá, seja bem vindo ao meu projetos de reprodução da [página inicial do Instagram](https://www.instagram.com/), usando apenas HTML5 e CSS3. 
+# Projeto Tablet (JS Básico) #
 
 ## PROPOSTA ###
 
-Apresentar meus conhecimentos com HMTL5 e CSS3.
+Apresentar meus conhecimentos com HMTL5, CSS3 e KS.
 
 ## ORIGEM ##
 
-Esse projeto foi desenvolvido durante minhas aulas no Bootcamp de HTML Web Developer da [Digital Innovetion One](https://web.digitalinnovation.one/)
+Esse projeto foi desenvolvido durante minhas aulas no Curso Tecnogueto!
