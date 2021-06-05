@@ -58,5 +58,3 @@ function showMesangemErro(msgErro){
     mensagemSucesso.setAttribute("class", "esconder");
 
 }
-
-// Base
