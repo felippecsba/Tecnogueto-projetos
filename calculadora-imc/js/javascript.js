@@ -1,9 +1,10 @@
 const botaoCalcular = document.getElementById("botaoCalcular");
-botaoCalcular.addEventListener("click", function() {
+
+botaoCalcular.addEventListener("click", function(){
     validarForms();
 });
 
-function msgResultadoCalcIMC(nome, peso, altura) {
+function msgResultadoCalcIMC(nome, peso, altura){
     const resultadoDoCalculoIMC = (peso / (altura * altura)).toFixed(1);
     let classificaco = '';
 
@@ -30,7 +31,7 @@ function validarForms() {
     const convertPesoNum = parseInt(peso);
     const convertAlturaNum =  parseInt(altura);
 
-    if (nome != '' && altura != '' && peso != '') {
+    if (nome != '' && altura != '' && peso != ''){
         if (Number.isInteger(convertAlturaNum) && Number.isInteger(convertPesoNum) ) {
 
             msgResultadoCalcIMC(nome, peso, altura);
@@ -43,17 +44,19 @@ function validarForms() {
     }
 }
 
-function showMensagemSucesso(nome, resultadoCalculo, classificaco) {
+function showMensagemSucesso(nome, resultadoCalculo, classificaco){
     const mensagemSucesso = document.getElementById("mensagemSucesso");
     mensagemSucesso.textContent = `${nome} seu IMC é: ${resultadoCalculo}, e você está ${classificaco}`;
     mensagemSucesso.setAttribute("class", "alert alert-primary mt-5 mb-5 mostrar");
     mensagemErro.setAttribute("class", "esconder");
 }
 
-function showMesangemErro(msgErro) {   
+function showMesangemErro(msgErro){   
     const mensagemErro = document.getElementById("mensagemErro"); 
     mensagemErro.textContent = msgErro;
     mensagemErro.setAttribute("class", "alert alert-danger mt-5 mb-5 mostrar");
     mensagemSucesso.setAttribute("class", "esconder");
 
 }
+
+// Base
