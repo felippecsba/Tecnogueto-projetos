@@ -20,7 +20,6 @@ function msgResultadoCalcIMC(nome, peso, altura) {
     }
 
     showMensagemSucesso(nome, resultadoDoCalculoIMC, classificaco);
-
 }
 
 function validarForms() {
@@ -42,7 +41,6 @@ function validarForms() {
     } else {   
         showMesangemErro (`Preencha todos os campos`);
     }
-
 }
 
 function showMensagemSucesso(nome, resultadoCalculo, classificaco) {
@@ -59,4 +57,3 @@ function showMesangemErro(msgErro) {
     mensagemSucesso.setAttribute("class", "esconder");
 
 }
-
